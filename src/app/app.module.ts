@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { UtilitytableComponent } from './utilitytable/utilitytable.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UtilitytableComponent
   ],
   imports: [
     BrowserModule,
